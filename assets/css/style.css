@@ -1,0 +1,30 @@
+/*     common section start  */
+.sidebar{
+    /* position: fixed; */
+    background: #ebebeb;
+    width: 200px;
+    height: 100vh;
+    margin-left: -200px;
+    transition: all linear 0.5s;
+    overflow-y:auto;
+}
+.nav_content{
+    background: #f3cfde;
+    width: 100%;
+}
+/* .nav_content.active{
+    width: 100%;
+} */
+.button-toggle{
+    position: fixed;
+    left: 10px;
+    transition: all linear 0.5s;
+}
+.sidebar.active{
+    margin-left: 0px;
+}
+.sidebar.active .button-toggle{
+   left:210px;
+   transition: all linear 0.5s;
+}
+/* / / common section end / / */
